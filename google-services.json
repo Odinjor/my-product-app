@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "920631693984",
+    "firebase_url": "https://my-product-app-8ca91-default-rtdb.firebaseio.com",
+    "project_id": "my-product-app-8ca91",
+    "storage_bucket": "my-product-app-8ca91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920631693984:android:0065d13210474f6703efc5",
+        "android_client_info": {
+          "package_name": "gsu.gsu_my_product_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvVuTvL5byzObRjbTqxZtMaAemF3ZsOp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

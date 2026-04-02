@@ -12,7 +12,7 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
   // TODO: Complete this function!
   Future<void> _deleteProduct(String productId) async {
     // Your code here
-    
+    await _products.doc(productId).delete();
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('You have successfully deleted a product')),
     );
